@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A50E524207AE44700E9A1B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50E523207AE44700E9A1B5 /* AppDelegate.swift */; };
-		8A50E526207AE44700E9A1B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50E525207AE44700E9A1B5 /* ViewController.swift */; };
 		8A50E529207AE44700E9A1B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A50E527207AE44700E9A1B5 /* Main.storyboard */; };
 		8A50E52C207AE44700E9A1B5 /* My_Quiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A50E52A207AE44700E9A1B5 /* My_Quiz.xcdatamodeld */; };
 		8A50E52E207AE44800E9A1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A50E52D207AE44800E9A1B5 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		8A50E520207AE44700E9A1B5 /* My Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A50E523207AE44700E9A1B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A50E525207AE44700E9A1B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A50E528207AE44700E9A1B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A50E52B207AE44700E9A1B5 /* My_Quiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Quiz.xcdatamodel; sourceTree = "<group>"; };
 		8A50E52D207AE44800E9A1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				8A50E523207AE44700E9A1B5 /* AppDelegate.swift */,
-				8A50E525207AE44700E9A1B5 /* ViewController.swift */,
 				8A50E527207AE44700E9A1B5 /* Main.storyboard */,
 				8A50E52D207AE44800E9A1B5 /* Assets.xcassets */,
 				8A50E52F207AE44800E9A1B5 /* LaunchScreen.storyboard */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A50E526207AE44700E9A1B5 /* ViewController.swift in Sources */,
 				8A50E52C207AE44700E9A1B5 /* My_Quiz.xcdatamodeld in Sources */,
 				8A50E524207AE44700E9A1B5 /* AppDelegate.swift in Sources */,
 			);
@@ -441,7 +437,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.novusmobile.myquiz.My-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novusmobile.myquiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.novusmobile.myquiz.My-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novusmobile.myquiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
